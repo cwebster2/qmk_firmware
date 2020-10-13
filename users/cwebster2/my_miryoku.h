@@ -29,14 +29,14 @@
 #define _______COLEMAK_R2_____        KC_M,  RSFT_T(KC_N), RCTL_T(KC_E), RALT_T(KC_I), RGUI_T(KC_O)
 #define _______COLEMAK_R3_____        KC_K,         KC_H,         KC_COMM,      KC_DOT,       KC_SLSH
 
-#define _______THUMBS_L_______ LT(_MOUSE,KC_ESC), LT(_NAV,KC_SPC),  LT(_MEDIA,  KC_TAB)
-#define _______THUMBS_R_______ LT(_FN,   KC_ENT), LT(_NUM,KC_BSPC), LT(_SYMBOLS,KC_DEL)
+#define _______THUMBS_L_______ LT(_SYMBOLS,KC_ESC), LT(_NUM,KC_SPC),  LT(_FN,   KC_TAB)
+#define _______THUMBS_R_______ LT(_MEDIA,  KC_ENT), LT(_NAV,KC_BSPC), LT(_MOUSE,KC_DEL)
 
 #define _______NAKED_R___T____ KC_ENT,   KC_BSPC,  KC_DEL
 #define _______NAKED_L___T____ KC_ESC,   KC_SPC,   KC_TAB
 
 #define _______INACTIVE_R1____ KC_LOCK,  KC_TRNS,  KC_TRNS,  KC_TRNS,  RESET
-#define _______INACTIVE_R2____ KC_TRNS,  KC_RSFT,  KC_RCTL,  KC_LALT,  KC_RGUI
+#define _______INACTIVE_R2____ KC_TRNS,  KC_LSFT,  KC_LCTL,  KC_LALT,  KC_LGUI
 #define _______INACTIVE_R3____ KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_RALT,  KC_TRNS
 
 #define _______INACTIVE_L1____ KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_LOCK
@@ -46,32 +46,32 @@
 #define _______INACTIVE__T____ KC_TRNS,  KC_TRNS,  KC_TRNS
 
 
-#define _______SYM______L1____ KC_RCBR,  KC_AMPR,  KC_ASTR,  KC_LPRN,  KC_LCBR
-#define _______SYM______L2____ KC_COLN,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_PLUS
-#define _______SYM______L3____ KC_TILD,  KC_EXLM,  KC_AT,    KC_HASH,  KC_PIPE
-#define _______SYM_______T____ KC_LPRN,  KC_RPRN,  KC_UNDS
+#define _______SYM______R1____ KC_LCBR,  KC_AMPR,  KC_ASTR,  KC_LPRN,  KC_RCBR
+#define _______SYM______R2____ KC_PLUS,  KC_DLR,   KC_PERC,  KC_CIRC,  KC_COLN
+#define _______SYM______R3____ KC_PIPE,  KC_EXLM,  KC_AT,    KC_HASH,  KC_TILD
+#define _______SYM_______T____ KC_UNDS,  KC_LPRN,  KC_RPRN
 
-#define _______NUM______L1____ KC_RBRC,  KC_7,  KC_8,  KC_9,  KC_LBRC
-#define _______NUM______L2____ KC_SCLN,  KC_4,  KC_5,  KC_6,  KC_EQL
-#define _______NUM______L3____ KC_GRV,   KC_1,  KC_2,  KC_3,  KC_SLSH
-#define _______NUM_______T____ KC_DOT,   KC_0,  KC_MINS
+#define _______NUM______R1____ KC_LBRC,  KC_7,  KC_8,  KC_9,  KC_RBRC
+#define _______NUM______R2____ KC_EQL,   KC_4,  KC_5,  KC_6,  KC_SCLN
+#define _______NUM______R3____ KC_SLSH,  KC_1,  KC_2,  KC_3,  KC_GRV
+#define _______NUM_______T____ KC_MINS,  KC_0,  KC_DOT
 
-#define _______FN_______L1____ KC_F12,   KC_F7,    KC_F8,  KC_F9,  KC_SYSREQ
-#define _______FN_______L2____ KC_F11,   KC_F4,    KC_F5,  KC_F6,  KC_TRNS
-#define _______FN_______L3____ KC_F10,   KC_F1,    KC_F2,  KC_F3,  KC_BSLS
-#define _______FN________T____ KC_MENU,  KC_SLSH,  KC_TRNS
+#define _______FN_______R1____ KC_SYSREQ, KC_F7,    KC_F8,  KC_F9,  KC_F12
+#define _______FN_______R2____ KC_TRNS,   KC_F4,    KC_F5,  KC_F6,  KC_F11
+#define _______FN_______R3____ KC_BSLS,   KC_F1,    KC_F2,  KC_F3,  KC_F10
+#define _______FN________T____ KC_ENT,    KC_SLSH,  KC_MENU
 
-#define _______NAV______R1____ KC_UNDO,  KC_CUT,  KC_COPY,  KC_PSTE,  KC_AGIN
-#define _______NAV______R2____ KC_LEFT,  KC_DOWN,  KC_UP,  KC_RGHT,  KC_CAPS
-#define _______NAV______R3____ KC_HOME,  KC_PGDN,  KC_PGUP,  KC_END,  KC_INS
+#define _______NAV______L1____ KC_HOME,  KC_PGDN,  KC_UP,    KC_PGUP,  KC_END
+#define _______NAV______L2____ KC_CAPS,  KC_LEFT,  KC_DOWN,  KC_RGHT,  KC_INS
+#define _______NAV______L3____ KC_UNDO,  KC_CUT,   KC_COPY,  KC_PSTE,  KC_AGIN
 #define _______NAV_______T____ KC_ENT,   KC_BSPC,  KC_DEL
 
-#define _______MEDIA____R1____ RGB_TOG,  RGB_MOD,  RGB_HUI,  RGB_SAI,  RGB_VAI
-#define _______MEDIA____R2____ KC_MPRV,  KC_VOLD,  KC_VOLU,  KC_MNXT,  KC_TRNS
-#define _______MEDIA____R3____ KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS
-#define _______MEDIA_____T____ KC_MSTP,  KC_MPLY,  KC_MUTE
+#define _______MEDIA____L1____ RGB_TOG,  RGB_MOD,  RGB_HUI,  RGB_SAI,  RGB_VAI
+#define _______MEDIA____L2____ KC_TRNS,  KC_MPRV,  KC_VOLD,  KC_VOLU,  KC_MNXT
+#define _______MEDIA____L3____ KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS
+#define _______MEDIA_____T____ KC_MUTE,  KC_MPLY,  KC_MSTP
 
-#define _______MOUSE____R1____ KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS
-#define _______MOUSE____R2____ KC_MS_L,  KC_MS_D,  KC_MS_U,  KC_MS_R,  KC_TRNS
-#define _______MOUSE____R3____ KC_WH_L,  KC_WH_D,  KC_WH_U,  KC_WH_R,  KC_TRNS
+#define _______MOUSE____L1____ KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS,  KC_TRNS
+#define _______MOUSE____L2____ KC_TRNS,  KC_MS_L,  KC_MS_D,  KC_MS_U,  KC_MS_R
+#define _______MOUSE____L3____ KC_TRNS,  KC_WH_L,  KC_WH_D,  KC_WH_U,  KC_WH_R
 #define _______MOUSE_____T____ KC_BTN1,  KC_BTN3,  KC_BTN2
