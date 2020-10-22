@@ -42,10 +42,10 @@ uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
         case LALT_T(KC_S):
         case LCTL_T(KC_D):
         case LSFT_T(KC_F):
-        case RSFT_T(KC_J):
-        case RCTL_T(KC_K):
-        case RALT_T(KC_L):
-        case RGUI_T(KC_SCLN):
+        case LSFT_T(KC_J):
+        case LCTL_T(KC_K):
+        case LALT_T(KC_L):
+        case LGUI_T(KC_SCLN):
             return TAPPING_TERM + 150;
         default:
             return TAPPING_TERM;

@@ -19,14 +19,14 @@
 #define _______QWERTY_L2______ LGUI_T(KC_A), LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F),        KC_G
 #define _______QWERTY_L3______        KC_Z,         KC_X,         KC_C,         KC_V,         KC_B
 #define _______QWERTY_R1______        KC_Y,         KC_U,         KC_I,         KC_O,         KC_P
-#define _______QWERTY_R2______        KC_H,  RSFT_T(KC_J), RCTL_T(KC_K), RALT_T(KC_L), RGUI_T(KC_SCLN)
+#define _______QWERTY_R2______        KC_H,  LSFT_T(KC_J), LCTL_T(KC_K), LALT_T(KC_L), LGUI_T(KC_SCLN)
 #define _______QWERTY_R3______        KC_N,         KC_M,         KC_COMM,      KC_DOT,       KC_SLSH
 
 #define _______COLEMAK_L1_____        KC_Q,         KC_W,         KC_F,         KC_P,         KC_B
 #define _______COLEMAK_L2_____ LGUI_T(KC_A), LALT_T(KC_R), LCTL_T(KC_S), LSFT_T(KC_T),        KC_G
 #define _______COLEMAK_L3_____        KC_Z,         KC_X,         KC_C,         KC_D,         KC_V
 #define _______COLEMAK_R1_____        KC_J,         KC_L,         KC_U,         KC_Y,         KC_QUOT
-#define _______COLEMAK_R2_____        KC_M,  RSFT_T(KC_N), RCTL_T(KC_E), RALT_T(KC_I), RGUI_T(KC_O)
+#define _______COLEMAK_R2_____        KC_M,  LSFT_T(KC_N), LCTL_T(KC_E), LALT_T(KC_I), LGUI_T(KC_O)
 #define _______COLEMAK_R3_____        KC_K,         KC_H,         KC_COMM,      KC_DOT,       KC_SLSH
 
 #define _______THUMBS_L_______ LT(_MOUSE,KC_ESC), LT(_NAV,KC_SPC),  LT(_MEDIA,  KC_TAB)
