@@ -16,10 +16,10 @@
 #pragma once
 
 #define _______QWERTY_L1______        KC_Q,         KC_W,         KC_E,         KC_R,         KC_T
-#define _______QWERTY_L2______ LGUI_T(KC_A), LALT_T(KC_S), LCTL_T(KC_D), LSFT_T(KC_F),        KC_G
+#define _______QWERTY_L2______  KC_A, KC_S, KC_D, KC_F,        KC_G
 #define _______QWERTY_L3______        KC_Z,         KC_X,         KC_C,         KC_V,         KC_B
 #define _______QWERTY_R1______        KC_Y,         KC_U,         KC_I,         KC_O,         KC_P
-#define _______QWERTY_R2______        KC_H,  LSFT_T(KC_J), LCTL_T(KC_K), LALT_T(KC_L), LGUI_T(KC_SCLN)
+#define _______QWERTY_R2______        KC_H,  KC_J, KC_K, KC_L, KC_SCLN
 #define _______QWERTY_R3______        KC_N,         KC_M,         KC_COMM,      KC_DOT,       KC_SLSH
 
 #define _______COLEMAK_L1_____        KC_Q,         KC_W,         KC_F,         KC_P,         KC_B

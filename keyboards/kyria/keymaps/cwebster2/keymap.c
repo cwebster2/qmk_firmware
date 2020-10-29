@@ -78,9 +78,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  // GAME layout -- qwerty without homerow mods
     [_GAME] = LAYOUT_kyria_wrapper(
  /* ,-------------------------------------------.                              ,-------------------------------------------. */
-    KC_GRV,   _______QWERTY_L1______,                                     _______QWERTY_R1______, KC_BSLS,
-    KC_CTLBS, KC_A, KC_S, KC_D, KC_F, KC_G,                               KC_H, KC_J, KC_K, KC_L, KC_SCLN, KC_QUOT,
-    KC_LSFT,   _______QWERTY_L3______, KC_LCCL, KC_LALT,                   KC_ALTCL, KC_LSFT, _______QWERTY_R3______, KC_MINS,
+    KC_GRV,   _______COLEMAK_L1_____,                                     _______COLEMAK_R1_____, KC_BSLS,
+    KC_CTLBS, KC_A, KC_R, KC_S, KC_T, KC_G,                               KC_M, KC_N, KC_E, KC_I, KC_O, KC_SCLN,
+    KC_LSFT,   _______COLEMAK_L3_____, KC_LCCL, KC_LALT,                   KC_ALTCL, KC_LSFT, _______COLEMAK_R3_____, KC_MINS,
        KC_EQL, KC_0, _______NAKED_L___T____,   _______THUMBS_R_______, TO(_COLEMAK), KC_F12
  /*                        `----------------------------------'  `----------------------------------' */
     ),
@@ -338,10 +338,10 @@ static void render_status(void) {
             break;
         case _GAME:
             oled_write_P(PSTR("Game\n"), false);
-            isColemak = false;
+            isColemak = true;
             break;
         case _COLEMAK:
-            oled_write_P(PSTR("Colemak-DHm\n"), false);
+            oled_write_P(PSTR("Default\n"), false);
             isColemak = true;
             break;
         case _MEDIA:
