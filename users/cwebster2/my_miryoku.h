@@ -15,9 +15,9 @@
  */
 #pragma once
 
-#define _______QWERTY_L1______        KC_T          KC_Q,         KC_W,         KC_E,         KC_R,
-#define _______QWERTY_L2______        KC_G          KC_A,         KC_S,         KC_D,         KC_F,
-#define _______QWERTY_L3______        KC_B          KC_Z,         KC_X,         KC_C,         KC_V
+#define _______QWERTY_L1______        KC_T,         KC_Q,         KC_W,         KC_E,         KC_R
+#define _______QWERTY_L2______        KC_G,         KC_A,         KC_S,         KC_D,         KC_F
+#define _______QWERTY_L3______        KC_B,         KC_Z,         KC_X,         KC_C,         KC_V
 #define _______QWERTY_R1______        KC_Y,         KC_U,         KC_I,         KC_O,         KC_P
 #define _______QWERTY_R2______        KC_H,         KC_J,         KC_K,         KC_L,         KC_SCLN
 #define _______QWERTY_R3______        KC_N,         KC_M,         KC_COMM,      KC_DOT,       KC_SLSH
