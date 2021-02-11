@@ -90,7 +90,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_GRV,   _______COLEMAK_L1_____,                                     _______COLEMAK_R1_____, KC_BSLS,
     KC_CTLBS, KC_A, KC_R, KC_S, KC_T, KC_G,                               KC_M, KC_N, KC_E, KC_I, KC_O, KC_SCLN,
     KC_LSFT,   _______COLEMAK_L3_____, KC_LCCL, KC_LALT,                   KC_ALTCL, KC_LSFT, _______COLEMAK_R3_____, KC_MINS,
-       KC_EQL, KC_0, _______NAKED_L___T____,   _______THUMBS_R_______, TO(_COLEMAK), KC_F12
+       KC_EQL, MO(_NUM), _______NAKED_L___T____,   _______THUMBS_R_______, TO(_COLEMAK), KC_F12
  /*                        `----------------------------------'  `----------------------------------' */
     ),
     [_FN] = LAYOUT_kyria_base_wrapper(
