@@ -53,16 +53,16 @@
 
 #define _______NUM______L1____ KC_RBRC,  KC_7,  KC_8,  KC_9,  KC_LBRC
 #define _______NUM______L2____ KC_SCLN,  KC_4,  KC_5,  KC_6,  KC_EQL
-#define _______NUM______L3____ KC_GRV,   KC_1,  KC_2,  KC_3,  KC_SLSH
+#define _______NUM______L3____ KC_GRV,   KC_1,  KC_2,  KC_3,  KC_BSLS
 #define _______NUM_______T____ KC_DOT,   KC_0,  KC_MINS
 
-#define _______FN_______L1____ KC_F12,   KC_F7,    KC_F8,  KC_F9,  KC_SYSREQ
-#define _______FN_______L2____ KC_F11,   KC_F4,    KC_F5,  KC_F6,  KC_TRNS
-#define _______FN_______L3____ KC_F10,   KC_F1,    KC_F2,  KC_F3,  KC_BSLS
-#define _______FN________T____ KC_MENU,  KC_SLSH,  KC_TRNS
+#define _______FN_______L1____ KC_F12,   KC_F7,   KC_F8,  KC_F9,  KC_SYSREQ
+#define _______FN_______L2____ KC_F11,   KC_F4,   KC_F5,  KC_F6,  KC_TRNS
+#define _______FN_______L3____ KC_F10,   KC_F1,   KC_F2,  KC_F3,  KC_PAUSE
+#define _______FN________T____ KC_MENU,  KC_SPC,  KC_TAB
 
-#define _______NAV______R1____ KC_UNDO,  KC_CUT,  KC_COPY,  KC_PSTE,  KC_AGIN
-#define _______NAV______R2____ KC_LEFT,  KC_DOWN,  KC_UP,  KC_RGHT,  KC_CAPS
+#define _______NAV______R1____ KC_UNDO,  KC_CUT,   KC_COPY,  KC_PSTE,  KC_AGIN
+#define _______NAV______R2____ KC_LEFT,  KC_DOWN,  KC_UP,    KC_RGHT,  KC_CAPS
 #define _______NAV______R3____ KC_HOME,  KC_PGDN,  KC_PGUP,  KC_END,  KC_INS
 #define _______NAV_______T____ KC_ENT,   KC_BSPC,  KC_DEL
 
