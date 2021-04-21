@@ -73,7 +73,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       _______QWERTY_L1______,                 _______QWERTY_R1______,
       _______QWERTY_L2______,                 _______QWERTY_R2______,
       _______QWERTY_L3______,                 _______QWERTY_R3______,
-              _______THUMBS_L_______,  _______THUMBS_R_______
+              _______NAKED_L___T____,  _______THUMBS_R_______
  /*           `---------------------'  `---------------------' */
     ),
     [_COLEMAK] = LAYOUT_kyria_wrapper(
